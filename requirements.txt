@@ -1,0 +1,21 @@
+#streamlit==1.24.0
+#streamlit==1.12.2
+streamlit==1.28.2
+
+#opencv-python-headless>=4.1.2
+opencv-python-headless==4.6.0.66
+#opencv-python==4.6.0.66
+Pillow==10.1.0
+
+#****　20250304
+#torch>=1.8
+### OK torch==1.8
+torch==2.5
+#math== 3.9
+#*****
+
+# yolov5
+#ultralytics
+ultralytics==8.0.219
+
+
