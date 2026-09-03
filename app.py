@@ -19,7 +19,7 @@ from ultralytics import YOLO
 image_size = 50
 
 
-# 2026/9/3 st.set_option("deprecation.showfileUploaderEncoding", False)
+# 2026/9/3削除 st.set_option("deprecation.showfileUploaderEncoding", False)
 
 st.sidebar.title("シャインマスカット房粒数カウント、収穫時期判定アプリ-ai-app_14")
 st.sidebar.write("画像認識モデルを使ってシャインマスカットの房粒数カウント、収穫時期の判定をします。")
@@ -44,6 +44,7 @@ try:
         if  img_source != "カメラで撮影":
            #st.image(img, caption="対象の画像", width=280,height =280)
            #st.image(img, caption="対象の画像", use_column_width=True)
+          # 2026/09/03修正
            st.image(img, caption="対象の画像", use_container_width=True)
       #st.image(img, caption="対象の画像", width=480)
         st.write("")
