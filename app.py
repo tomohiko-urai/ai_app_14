@@ -43,8 +43,8 @@ try:
         img = Image.open(img_file)
         if  img_source != "カメラで撮影":
            #st.image(img, caption="対象の画像", width=280,height =280)
-           st.image(img, caption="対象の画像", use_column_width=True)
-       
+           #st.image(img, caption="対象の画像", use_column_width=True)
+           st.image(img, caption="対象の画像", use_container_width=True)
       #st.image(img, caption="対象の画像", width=480)
         st.write("")
 
